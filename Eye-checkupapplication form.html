@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Eye-checkup application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            hr{
+                border-color: black;
+            }
+            .red-light{
+                border-color: red;
+            }
+            #black-light{
+                border-color:purple;
+            }
+        </style>
+    </head>
+    <body style="background-color: darkkhaki;">
+    <div>
+        <h1>Vasan Eye-checkup Application form</h1>
+        <hr style="border-color: black;">
+        <form action="Eye-checkupapplication form.html" method="get">
+            <h2 >CONTACT DETAILS</h2>
+            <h3 >Patient's Name</h3>
+            <label for="fname" style="display: inline-block;">First Name</label>
+            <input style="border-radius: 20px;" type="text" name="fname" id="fname" placeholder="First Name" style="display: inline-block;" required>
+            <label style="display: inline-block;" for="lname" style="display: inline-block;">Last Name</label>
+            <input style="border-radius: 20px;" style="display: inline-block;" type="text" name="lname" id="lname" placeholder="Last Name" required>
+            <label style="display: block;" for="DOB"> <h3> Date of Birth</h3></label>
+            <input style="border-radius: 20px;" type="date" name="DOB" id="DOB">
+            <div>
+                <h3>Address</h3>
+                <label style="display: inline-block;" for="hno">Houe/Flat NO</label>
+                <input style="display: inline-block; border-radius: 20px;" type="text" name="hno" id="hno" placeholder="H/NO">
+                <label style="display: inline-block;" for="street">Street Name</label>
+                <input style="display: inline-block; border-radius: 20px" type="text" name="street" id="street" placeholder="Street Name"><br><br>
+                <label style="display: inline-block;" for="city">City Name</label>
+                <input style="display: inline-block; border-radius: 20px " type="text" name="city" id="city" placeholder="City Name"> 
+                <label style="display: inline-block;" for="dstrict">District Name</label>
+                <input style="display: inline-block; border-radius: 20px" type="text" name="district" id="district" placeholder="District Name"> 
+            </div>
+            <div>
+                <label for="mob"><h3>Mobile</h3></label>
+                <input style="border-radius: 20px" type="text" name="mob" id="mob" placeholder="Mobile No" required>
+                <label for="mail"><h3>Mail ID</h3></label>
+                <input style="border-radius: 20px" type="email" name="mob" id="mob" placeholder="Mail ID" required>
+            </div><br>
+            <hr>
+            <div>
+                <h2>EYE-CHECKUP DETAILS</h2>            
+                <label for="eye-checked"><h3>Have you ever checked your eye before?</h3></label>
+                <input type="radio" name="eye-checked" id="yes">
+                <label for="yes">YES</label>
+                <input type="radio" name="eye-checked" id="no">
+                <label for="no">NO</label>
+                <div>
+                    <h3>If you have checked up your eye before then...</h3>
+                    <label for="DoL"><h4>Date of Last check-up</h4></label>
+                    <input style="border-radius: 20px" type="date" name="DoL" id="DoL"><br><br>
+                    <label for="specs"><h4>Wearing power glasses...?</h4></label>
+                    <input type="radio" name="specs" id="Yes">
+                    <label for="Yes">YES</label>
+                    <input type="radio" name="specs" id="No">
+                    <label for="No">NO</label>
+                    <h3>If Yes...then Power of Eyes</h3>
+                    <label for="leye">Power of Left Eye</label>
+                    <input style="border-radius: 20px" type="number" name="leye" id="leye" placeholder="Left eye power" > 
+                    <label for="reye">Power of Right Eye</label>
+                    <input style="border-radius: 20px" type="number" name="reye" id="reye" placeholder="Right eye power" >
+                </div><br>
+                <hr style="border-color: black;">
+                <div>
+                    <h2>Checking-up Eye for the First Time..?</h2>
+                    <h3>The irritations you're suffering from </h3>
+                    <input type="checkbox" name="irri-1" id="irri-1">
+                    <label for="irri-1"><b>Blurred vision</b></label><br>
+                    <input type="checkbox" name="irri-1" id="irri-2">
+                    <label for="irri-2"><b>Eye strain</b></label><br>
+                    <input type="checkbox" name="irri-1" id="irri-3">
+                    <label for="irri-3"><b>Dry eyes</b></label><br>
+                    <input type="checkbox" name="irri-1" id="irri-4">
+                    <label for="irri-4"><b>Redness or Irritations</b></label><br>
+                    <input type="checkbox" name="irri-1" id="irri-5">
+                    <label for="irri-5"><b>Difficulty Seeing at Night</b></label>
+                </div>
+            </div><br>
+            <input style="border-radius: 20px; height: 25px; width: 75px;" type="submit" name="submit" id="submit">
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
