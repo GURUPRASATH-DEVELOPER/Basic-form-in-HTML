@@ -5,7 +5,7 @@ A Basic Application form created in HTML
 
 This form is basically an application to make eye-checkup appointment with Doctor.
 
-Used basic HTML tags Like: <form>,<headings>,<input>,<label> etc.
+Used basic HTML tags Like: form,headings,input,label etc.
 
 ![Basic-UI](https://github.com/GURUPRASATH-DEVELOPER/Basic-form-in-HTML/assets/138384576/d8d2ce95-3607-452b-84d9-b5cdfb073c3e)
 
